@@ -19,5 +19,11 @@ public class RomanConverterTest {
 		RomanConverter roman = createNewRomanConverter();
 		assertEquals("II", roman.convert(2));
 	}
+	
+	@Test
+	public void should_get_iii_when_3() {
+		RomanConverter roman = createNewRomanConverter();
+		assertEquals("III", roman.convert(3));
+	}
 
 }
