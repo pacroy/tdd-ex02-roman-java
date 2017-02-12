@@ -28,7 +28,8 @@ public class RomanParameterizedTest {
 			{5, "V"},
 			{6, "VI"},
 			{9, "IX"},
-			{10, "X"}
+			{10, "X"},
+			{13, "XIII"},
 		});
 	}
 	
