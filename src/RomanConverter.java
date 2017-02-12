@@ -1,20 +1,16 @@
 
 public class RomanConverter {
 
-	public String convert(int i) {
+	public String convert(int input) {
 		String output = "";
+		int[] arabic = { 5, 4, 1 };
+		String[] roman = { "V", "IV", "I" };
 		
-		while (i >= 5) { 
-			output += "V";
-			i -= 5;
-		}
-		while (i >= 4) {
-			output += "IV";
-			i -= 4;
-		}
-		while (i >= 1) {
-			output += "I";
-			i -= 1;
+		for (int i=0; i<arabic.length; i++) {
+			while (input >= arabic[i]) { 
+				output += roman[i];
+				input -= arabic[i];
+			}
 		}
 
 		return output;
