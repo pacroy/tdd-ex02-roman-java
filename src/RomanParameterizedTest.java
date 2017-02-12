@@ -35,6 +35,13 @@ public class RomanParameterizedTest {
 			{18, "XVIII"},
 			{19, "XIX"},
 			{20, "XX"},
+			{24, "XXIV"},
+			{25, "XXV"},
+			{29, "XXIX"},
+			{30, "XXX"},
+			{34, "XXXIV"},
+			{35, "XXXV"},
+			{39, "XXXIX"},
 		});
 	}
 	
