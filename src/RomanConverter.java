@@ -4,11 +4,11 @@ public class RomanConverter {
 	public String convert(int i) {
 		String output = "";
 		
-		if (i >= 5) { 
+		while (i >= 5) { 
 			output += "V";
 			i -= 5;
 		}
-		if (i >= 4) {
+		while (i >= 4) {
 			output += "IV";
 			i -= 4;
 		}
