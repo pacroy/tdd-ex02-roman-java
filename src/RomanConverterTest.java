@@ -37,5 +37,11 @@ public class RomanConverterTest {
 		RomanConverter roman = createNewRomanConverter();
 		assertEquals("V", roman.convert(5));
 	}
+	
+	@Test
+	public void should_get_vi_when_6() {
+		RomanConverter roman = createNewRomanConverter();
+		assertEquals("VI", roman.convert(6));
+	}
 
 }
