@@ -31,5 +31,11 @@ public class RomanConverterTest {
 		RomanConverter roman = createNewRomanConverter();
 		assertEquals("IV", roman.convert(4));
 	}
+	
+	@Test
+	public void should_get_v_when_5() {
+		RomanConverter roman = createNewRomanConverter();
+		assertEquals("V", roman.convert(5));
+	}
 
 }
